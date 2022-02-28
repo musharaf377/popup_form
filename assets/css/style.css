@@ -1,0 +1,83 @@
+
+.modal_btn {
+  background: tomato;
+  border: none;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.modal_bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0s;
+  transition-duration: 1s;
+}
+
+.bg_active{
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal{
+  position: relative;
+  background-color: #fff;
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+.modal_close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 20px;
+  width: 22px;
+  height: 22px;
+  background: tomato;
+  text-align: center;
+  cursor:pointer;
+  color:#fff;
+}
+
+.modal h2 {
+  margin: 0 0 10px;
+}
+.modal form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.modal form input {
+  padding: 10px;
+  margin: 10px 0px;
+}
+.modal .form_btn {
+  display: block;
+  background: tomato;
+  display: inline-block;
+  width: 100px;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
